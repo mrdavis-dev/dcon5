@@ -36,47 +36,7 @@
     </div>
 
 
-    <header class="site-navbar py-4" role="banner">
-
-      <div class="container">
-        <div class="row align-items-center">
-
-
-          <div class="col-3">
-            <h1 class="site-logo"><a href="index.html" class="h2">DCON<span class="text-primary">.</span> </a></h1>
-          </div>
-          <div class="col-9">
-            <nav class="site-navigation position-relative text-right text-md-right" role="navigation">
-
-
-
-              <div class="d-block d-lg-none ml-md-0 mr-auto"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-
-              <ul class="site-menu js-clone-nav d-none d-lg-block">
-                <li class="active">
-                  <a href="index.html">Home</a>
-                </li>
-                <!-- <li class="has-children">
-                  <a href="#">Dropdown</a>
-                  <ul class="dropdown arrow-top">
-                    <li><a href="#">Menu One</a></li>
-                    <li><a href="#">Menu Two</a></li>
-                    <li><a href="#">Menu Three</a></li>
-                  </ul>
-                </li> -->
-                <li><a href="about.html">Sobre nosotros</a></li>
-                <!-- <li><a href="contact.html">Contacto</a></li> -->
-                <li><a href="login-register.html">Login / Register</a></li>
-              </ul>
-            </nav>
-
-
-          </div>
-
-        </div>
-      </div>
-      
-    </header>
+    <?php include("template/navbar.php"); ?>
 
     
 
@@ -100,8 +60,8 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-12 text-center">
-            <h2 class="font-weight-bold text-black">Experiencias</h2>
-            <p>Estos son algunos ambitos</p>
+            <h2 class="font-weight-bold text-black">Aplicaciones</h2>
+            <p>Estos son algunos ejemplos donde puedes usarla</p>
           </div>
         </div>
         <div class="nonloop-block-13 owl-carousel">
@@ -207,7 +167,7 @@
                             <li>Monthly updates</li>
                             <li>Free cancelation</li>
                         </ul>
-                        <a href="https://www.totoprayogo.com" target="_blank" class="btn btn-primary mb-3">Order Now</a>
+                        <a href="#" target="_blank" class="btn btn-primary mb-3">Order Now</a>
                     </div>
                 </div>
                 <div class="card card-pricing text-center px-3 mb-4">
