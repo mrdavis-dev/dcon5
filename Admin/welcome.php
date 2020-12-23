@@ -27,9 +27,11 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-</head>
 
-<body style=" ">
+</head>
+<script></script>
+
+<body style="">
   <header class="font1">
     <?php
     include('template/tem.php')
@@ -42,18 +44,47 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     </div>
   </header>
 
+  <br>
+  <div class="container mt-4 font2 animate__animated animate__fadeIn">
+    <div class="row">
+      <div class="col-sm">
+        <br />
+        <h2 align="center">Citas agendadas</h2><br />
+        <div class="form-group">
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInputGroup"></label>
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">Buscar</div>
+              </div>
+              <input type="text" class="form-control" name="search_text" id="search_text" placeholder="">
+            </div>
+          </div>
+          <!-- <div class="input-group">
+            <span class="input-group-addon">Search</span>
+            <input type="text" name="search_text" id="search_text" placeholder="Search by Customer Details" class="form-control" />
+          </div> -->
+        </div>
+        <br />
+        <div id="result"></div>
+      </div>
+      <div class="col-sm">
+        <img src="../img/add.svg" style="width:40%"><br>
+        <p>Crear citas personalizadas y permite que a tus clientes les llegue un recordatorio</p>
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">
+          Agregar cita
+        </button>
 
-  <div class="container-fluid mt-4 font2 animate__animated animate__fadeIn">
-
-  </div>
-
-  <footer class="  animate__animated animate__fadeIn animate__delay-1s">
-    <div class="p-4 text-center animate__animated animate__fadeIn animate__delay-1s">
-      <span>Develop by</span>
-      <span class="text-info"><a href="https://mrdavis-dev.github.io">mrdavis-dev</a></span>
+        <?php include('template/add_cita.php'); ?>
+      </div>
     </div>
-  </footer>
+
+
+    <script src="js/citas.js"></script>
+
+    <!-- footer -->
 
 </body>
+
 
 </html>
