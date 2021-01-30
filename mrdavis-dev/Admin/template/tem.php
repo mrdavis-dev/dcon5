@@ -6,12 +6,12 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="./productos.php">Productos</a>
+              <li class="nav-item">
+                <a class="nav-link" href="./welcome.php">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./register.php">Configurar correo</a>
-              </li> -->
+                <a class="nav-link" href="./cms.php">Editar mi sitio</a>
+              </li> 
               <li class="nav-item">
                 <a class="nav-link" href="./resetpassword.php">Cambiar contraseña</a>
               </li>

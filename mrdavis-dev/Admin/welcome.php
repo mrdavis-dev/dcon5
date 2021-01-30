@@ -45,10 +45,9 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
   </header>
 
   <br>
-  <div class="container mt-4 font2 animate__animated animate__fadeIn">
+  <div class="container-fluid mt-4 font2 animate__animated animate__fadeIn">
     <div class="row">
       <div class="col-sm">
-        <br />
         <h2 align="center">Citas agendadas</h2><br />
         <div class="form-group">
           <div class="col-auto">
@@ -61,7 +60,6 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
             </div>
           </div>
           <!-- <div class="input-group">
-            <span class="input-group-addon">Search</span>
             <input type="text" name="search_text" id="search_text" placeholder="Search by Customer Details" class="form-control" />
           </div> -->
         </div>
@@ -69,13 +67,31 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
         <div id="result"></div>
       </div>
       <div class="col-sm">
-        <img src="../img/add.svg" style="width:40%"><br>
-        <p>Crear citas personalizadas y permite que a tus clientes les llegue un recordatorio</p>
+        <!-- <img src="../img/add.svg" style="width:40%"><br> -->
+        <h2 align="center">Crear citas</h2><br />
+        <!-- <p>Crear citas personalizadas y permite que a tus clientes les llegue un recordatorio</p> -->
+
+        <div class="mb-3 input-group">
+          <input type="date" name="" id="" placeholder="" class="form-control" />
+        </div>
+        <div class="mb-3 input-group">
+            <input type="text" name="" id="" placeholder="Nombre" class="form-control" />
+          </div>
+          <div class="mb-3 input-group">
+            <input type="text" name="" id="" placeholder="Email" class="form-control" />
+          </div>
+          <div class="mb-3 input-group">
+            <input type="text" name="" id="" placeholder="Tipo de conulta" class="form-control" />
+          </div>
+          <div class="mb-3 input-group">
+            <input type="text" name="" id="" placeholder="Consulta" class="form-control" />
+          </div>
         <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">
           Agregar cita
         </button>
 
-        <?php include('template/add_cita.php'); ?>
+        <!-- <?php //include('template/add_cita.php'); 
+              ?> -->
       </div>
     </div>
 

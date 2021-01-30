@@ -3,20 +3,20 @@
 
 <head>
   <title>Dcon | Sobre nosotros</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -64,7 +64,7 @@
         <div class="row  justify-content-around">
           <div class="col-md-12">
 
-            <img src="img/about.svg" alt="Image" class="img-fluid mb-5">
+            <img src="img/about.svg" alt="Image" class="img-fluid col-lg-8">
           </div>
         </div>
       </div>
@@ -131,51 +131,10 @@
           </div>
         </div>
       </div>
-    </div>  
+    </div>  -->
 
+    <?php include("template/footer.php") ?>
     
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi, odio beatae aspernatur natus recusandae quasi magni eum voluptatem nam!</p>
-          </div>
-          <div class="col-lg-3 mx-auto">
-            <h3>Navigation</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">Podcasts</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <h3>Subscribe</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quibusdam!</p>
-            <form action="#" class="form-subscribe">
-              <input type="email" class="form-control mb-3" placeholder="Enter Email">
-              <input type="submit" class="btn btn-primary" value="Subscribe">
-            </form>
-          </div>
-        </div>
-
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <p>
-            Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-    Copyright &copy;
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script>document.write(new Date().getFullYear());</script> All rights reserved | develop by <a
-      href="https://mrdavis-dev.github.io" target="_blank">mrdavis-dev</a>
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. 
-            </p>
-          </div>
-          
-        </div>
-      </div>
-    </footer> -->
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>

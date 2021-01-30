@@ -28,8 +28,8 @@
               </ul>
             </li> -->
           <li class=""><a href="about.php">Sobre nosotros</a></li>
-          <!-- <li><a href="contact.html">Contacto</a></li> -->
-          <li><a href="login.php">Login / Registro</a></li>
+          <li><a href="como.php">Como tener tu portal de atención?</a></li>
+          <!-- <li><a href="login.php">Login / Registro</a></li> -->
         </ul>
       </nav>
 

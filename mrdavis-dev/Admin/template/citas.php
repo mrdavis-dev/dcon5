@@ -5,11 +5,11 @@ if(isset($_POST["query"]))
 {
  $search = mysqli_real_escape_string($connect, $_POST["query"]);
  $query = "
-  SELECT * FROM tbl_customer 
+  SELECT * FROM citas 
   WHERE fecha LIKE '%".$search."%'
   OR consulta LIKE '%".$search."%' 
   OR nombre LIKE '%".$search."%' 
-  OR correo LIKE '%".$search."%' 
+  OR email LIKE '%".$search."%' 
  ";
 }
 else
@@ -27,8 +27,8 @@ if(mysqli_num_rows($result) > 0)
     <tr>
      <th>#</th>
      <th>fecha</th>
-     <th>tipo consulta</th>
      <th>consulta</th>
+     <th>tipo consulta</th>
      <th>nombre</th>
      <th>correo</th>
     </tr>
@@ -42,7 +42,7 @@ if(mysqli_num_rows($result) > 0)
     <td>'.$row["consulta"].'</td>
     <td>'.$row["tipo_consulta"].'</td>
     <td>'.$row["nombre"].'</td>
-    <td>'.$row["correo"].'</td>
+    <td>'.$row["email"].'</td>
    </tr>
   ';
  }

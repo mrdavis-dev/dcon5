@@ -141,46 +141,45 @@
         <div class="nonloop-block-13 owl-carousel"> 
             
                 <div class="card card-pricing text-center px-3 mb-4">
-                    <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">plan basico</span>
+                    <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Basico</span>
                     <div class="bg-transparent card-header pt-4 border-0">
-                        <h1 class="h1 font-weight-normal text-primary text-center mb-0" data-pricing-value="5">$<span class="price">5</span><span class="h6 text-muted ml-2">/ por mes</span></h1>
+                        <h1 class="h1 font-weight-normal text-primary text-center mb-0" data-pricing-value="0">$<span class="price">Gratis</span><span class="h6 text-muted ml-2"></span></h1>
                     </div>
                     <div class="card-body pt-0">
                         <ul class="list-unstyled mb-4">
-                            <li>sitio web basico</li>
-                            <li>panel administrador</li>
-                            <li></li>
-                            <li></li>
+                            <li>Sitio web basico</li>
+                            <li>Panel administrador basico</li>
+                            <li>Soporte tecnico</li>
+                            <li>Ads</li>
                         </ul>
                         <button type="button" class="btn btn-outline-secondary mb-3">adqurir</button>
                     </div>
                 </div>
                 <div class="card card-pricing popular shadow text-center px-3 mb-4">
-                    <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Profesional</span>
+                    <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Estandar</span>
                     <div class="bg-transparent card-header pt-4 border-0">
                         <h1 class="h1 font-weight-normal text-primary text-center mb-0" data-pricing-value="10">$<span class="price">10</span><span class="h6 text-muted ml-2">/ por mes</span></h1>
                     </div>
                     <div class="card-body pt-0">
                         <ul class="list-unstyled mb-4">
-                            <li>Up to 5 users</li>
-                            <li>Basic support on Github</li>
-                            <li>Monthly updates</li>
-                            <li>Free cancelation</li>
+                            <li>Hasta 3 paneles independientes</li>
+                            <li>Reportes graficos</li>
+                            <li>CMS</li>
+                            <li>Envios de coreo</li>
+                            <li>No ads</li>
+                            <li>crear salas de video conferencia</li>
                         </ul>
-                        <a href="#" target="_blank" class="btn btn-primary mb-3">Order Now</a>
+                        <a href="#" target="_blank" class="btn btn-primary mb-3">Ordenar</a>
                     </div>
                 </div>
                 <div class="card card-pricing text-center px-3 mb-4">
-                    <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">platiniun</span>
+                    <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Empresas</span>
                     <div class="bg-transparent card-header pt-4 border-0">
-                        <h1 class="h1 font-weight-normal text-primary text-center mb-0" data-pricing-value="20">$<span class="price">20</span><span class="h6 text-muted ml-2">/ por mes</span></h1>
+                        <h1 class="h1 font-weight-normal text-primary text-center mb-0" data-pricing-value="45">$<span class="price">45</span><span class="h6 text-muted ml-2">/ por mes</span></h1>
                     </div>
                     <div class="card-body pt-0">
                         <ul class="list-unstyled mb-4">
-                            <li>Up to 5 users</li>
-                            <li>Basic support on Github</li>
-                            <li>Monthly updates</li>
-                            <li>Free cancelation</li>
+                            <p>Si necesita funciones extras para su negocio o crear un diseño personalizado a su gusto no dude en contactarnos le haremos una cotización</p>
                         </ul>
                         <button type="button" class="btn btn-outline-secondary mb-3">Order now</button>
                     </div>
