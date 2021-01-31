@@ -162,10 +162,10 @@
                     </div>
                     <div class="card-body pt-0">
                         <ul class="list-unstyled mb-4">
-                            <li>Hasta 3 paneles independientes</li>
+                            <li>Dominio Personalizado</li>
                             <li>Reportes graficos</li>
-                            <li>CMS</li>
-                            <li>Envios de coreo</li>
+                            <li>Panel de administración</li>
+                            <li>Envios de correo</li>
                             <li>No ads</li>
                             <li>crear salas de video conferencia</li>
                         </ul>
@@ -175,7 +175,7 @@
                 <div class="card card-pricing text-center px-3 mb-4">
                     <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Empresas</span>
                     <div class="bg-transparent card-header pt-4 border-0">
-                        <h1 class="h1 font-weight-normal text-primary text-center mb-0" data-pricing-value="45">$<span class="price">45</span><span class="h6 text-muted ml-2">/ por mes</span></h1>
+                        <h1 class="h1 font-weight-normal text-primary text-center mb-0" data-pricing-value="45"><span class="price">Contactanos</span><span class="h6 text-muted ml-2"></span></h1>
                     </div>
                     <div class="card-body pt-0">
                         <ul class="list-unstyled mb-4">
@@ -186,6 +186,19 @@
                 </div>
 
         </div>
+        <footer class="footer">
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> 
+               Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | develop by <a href="https://mrdavis-dev.github.io" target="_blank" >mrdavis-dev</a>
+               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.  -->
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
       </div>
     </div>
     <!-- <div class="site-blocks-cover overlay inner-page-cover" style="background-image: url(https://images.unsplash.com/photo-1589779255521-541c8cc2b0e7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80);" data-aos="fade" data-stellar-background-ratio="0.5">
@@ -204,42 +217,6 @@
     </div>   -->
 
 
-    <footer class="footer">
-      <!-- <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <h3>Beta</h3>
-            <p>dcon esta en fase beta por lo que se estara actualizando constantemente agregando más funciones facilitando una mejor gestión del tiempo.</p>
-          </div>
-          <div class="col-lg-3 mx-auto">
-            <h3>Contacto</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">correo</a></li>
-              <li><a href="#">Services</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-             <h3>Subscribe</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quibusdam!</p>
-            <form action="#" class="form-subscribe">
-              <input type="email" class="form-control mb-3" placeholder="Enter Email">
-              <input type="submit" class="btn btn-primary" value="Subscribe">
-            </form> -
-          </div>
-        </div> -->
-
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <p>
-               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> 
-               Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | develop by <a href="https://mrdavis-dev.github.io" target="_blank" >mrdavis-dev</a>
-               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.  -->
-            </p>
-          </div>
-          
-        </div>
-      </div>
-    </footer>
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>

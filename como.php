@@ -68,6 +68,7 @@
 
                     </div>
                 </div>
+                <?php include("template/footer.php") ?>
             </div>
         </div>
 
@@ -85,7 +86,7 @@
             </div>
         </div> -->
 
-        <?php include("template/footer.php") ?>
+      
 
 
 
