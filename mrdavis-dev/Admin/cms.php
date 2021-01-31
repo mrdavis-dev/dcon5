@@ -25,6 +25,10 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
 </head>
 
 <body class="">
@@ -44,7 +48,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
         <div>
             <form method="post" action="" enctype='multipart/form-data'>
                 <input type='file' name='file' />
-                <input class="btn btn-success" type='submit' value='Guardar' name='but_upload'>
+                <input class="btn btn-success" type='submit' value='Actualizar' name='but_upload'>
             </form>
         </div>
 
@@ -58,56 +62,58 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                 <input type="text" class="form-control" name="titulo" placeholder="Titulo">
             </div>
 
-            <input class="btn btn-success" name="sub" type="submit" value="Guardar">
+            <input class="btn btn-success" name="sub" type="submit" value="Actualizar">
         </form>
         <br>
 
-        <?php 
+        <?php
         include("post/cate.php");
         ?>
         <h4>Tipos de consulta que ofreces</h4>
         <spam>ingrese las categorias necesarias "solo 4"</spam>
         <form action="" method="post">
             <div class="input-group mb-3">
-                <input type="text" class="form-control" name="cate1" placeholder="">
+                <input type="text" class="form-control" name="cate1" placeholder="Categoria 1">
             </div>
 
             <div class="input-group mb-3">
-                <input type="text" class="form-control" name="cate2" placeholder="">
+                <input type="text" class="form-control" name="cate2" placeholder="Categoria 2">
             </div>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" name="cate3" placeholder="">
+                <input type="text" class="form-control" name="cate3" placeholder="Categoria 3">
             </div>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" name="cate4" placeholder="">
+                <input type="text" class="form-control" name="cate4" placeholder="Categoria 4">
             </div>
-            <input class="btn btn-success" name="cate" type="submit" value="Guardar">
+            <input class="btn btn-success" name="cate" type="submit" value="Actualizar">
         </form><br>
 
 
-        <?php 
+        <?php
         include("post/redes.php");
         ?>
-        <h4>Redes sociales <a class="data-dismiss=" data-dismiss="modal" href=""><img src="https://img.icons8.com/cotton/30/000000/info--v3.png"/></a></h4>
+
+
+        <h4>Redes sociales <a id="info" href="##"><img src="https://img.icons8.com/cotton/30/000000/info--v3.png" /></a></h4>
         <p>¡Si no cuentas con alguna de esas redes sociales solo rellena las que tienes!</p>
         <form action="" method="post">
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" name="red1" placeholder="Instagram:">
-        </div>
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" name="red2" placeholder="Facebook:">
-        </div>
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" name="red3" placeholder="Whatsapp">
-        </div>
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" name="red4" placeholder="Telegram">
-        </div>
-        <input class="btn btn-success" name="btnred" type="submit" value="Guardar">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" name="red1" placeholder="Instagram:">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" name="red2" placeholder="Facebook:">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" name="red3" placeholder="Whatsapp">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" name="red4" placeholder="Telegram">
+            </div>
+            <input class="btn btn-success" name="btnred" type="submit" value="Actualizar">
         </form>
         <br>
 
-
+        <script src="js/sweetalert.js"></script>
         <!-- <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Username" >
         </div>

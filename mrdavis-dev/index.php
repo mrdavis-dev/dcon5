@@ -88,7 +88,10 @@
                                         <?php
                                         $query = $link->query("SELECT * FROM categorias");
                                         while ($valores = mysqli_fetch_array($query)) {
-                                            echo '<option value="' . $valores['catego'] . '">' . $valores['catego'] . '</option>';
+                                            echo '<option value="' . $valores['catego1'] . '">' . $valores['catego1'] . '</option>';
+                                            echo '<option value="' . $valores['catego2'] . '">' . $valores['catego2'] . '</option>';
+                                            echo '<option value="' . $valores['catego3'] . '">' . $valores['catego3'] . '</option>';
+                                            echo '<option value="' . $valores['catego4'] . '">' . $valores['catego4'] . '</option>';
                                         }
                                         ?>
                                     </select>
