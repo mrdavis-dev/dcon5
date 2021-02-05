@@ -17,6 +17,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="stylesheet" href="css/btnfloat.css">
 </head>
 
 
@@ -31,27 +32,32 @@
             </div>
             <div class="centrar conrainer mt-3">
                 <button style="width:250px" type="button" class="sombra m-4 btn btn-primary btn-lg" data-toggle="modal" data-target="#Mymodal-2">Agendar cita</button>
-                <button style="width:250px" id="commingsoon" type="button" class="sombra m-4 btn btn-primary btn-lg">Más</button><br>
+                <button style="width:250px" id="commingsoon" type="button" class="sombra m-4 btn btn-primary btn-lg">Portafolio</button><br>
                 <p>Sigueme en mis redes sociales</p>
 
                 <script src="js/jsalert.js"></script>
-                
-                <?php echo('<a href="'.$red4.'"><img style="width:50px" src="https://img.icons8.com/nolan/64/telegram-app.png"></a>') ?>
-                <?php echo('<a href="'.$red2.'"><img style="width:50px" src="https://img.icons8.com/nolan/64/facebook-new.png"></a>') ?>
-                <?php echo('<a href="https://www.instagram.com/'.$red1.'/"><img style="width:50px" src="https://img.icons8.com/nolan/64/instagram-new.png"></a>') ?>
-                <?php echo('<a href="https://api.whatsapp.com/send?phone='.$red3.'"><img style="width:50px" src="https://img.icons8.com/nolan/64/whatsapp.png"></a>') ?>
+
+                <?php echo ('<a href="' . $red4 . '"><img style="width:50px" src="https://img.icons8.com/nolan/64/telegram-app.png"></a>') ?>
+                <?php echo ('<a href="' . $red2 . '"><img style="width:50px" src="https://img.icons8.com/nolan/64/facebook-new.png"></a>') ?>
+                <?php echo ('<a href="https://www.instagram.com/' . $red1 . '/"><img style="width:50px" src="https://img.icons8.com/nolan/64/instagram-new.png"></a>') ?>
+                <?php echo ('<a href="https://api.whatsapp.com/send?phone=' . $red3 . '"><img style="width:50px" src="https://img.icons8.com/nolan/64/whatsapp.png"></a>') ?>
             </div>
         </div>
         <div class="container centrado" style="margin-top:10%">
 
+            <a data-toggle="modal" data-target="#critica" href="#" class="float">
+                <i class="fa fa-commenting my-float"></i>
+            </a>
 
-            <!-- MODAL DE CITAS -->
+            <!-- MODALES -->
             <?php include('post_index/modal_cita.php'); ?>
+            <?php include('post_index/modal_critica.php'); ?>
+
         </div>
         <?php include("../template/footer.php") ?>
     </div>
-    
-    
+
+
 </body>
 
 </html>

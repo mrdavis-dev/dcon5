@@ -53,7 +53,7 @@
                     </div>
                     <div class="col-lg-6">
                         <img src="img/data.svg" style="width:350px" alt="Image" class="img-fluid mb-3">
-                        <p>DCON se encunetra en un fase beta, por lo tanto para crear tu perfil has un pre-registro <a href="register.php">aqui</a> y te contactaremos para que puedas modificar y ordenar tu espacio
+                        <p>DCON se encunetra en un fase beta, por lo tanto para crear tu perfil has un pre-registro <a href="pre_registro.php">aqui</a> y te contactaremos para que puedas modificar y ordenar tu espacio
                             digital.</p>
                     </div>
                     <div class="col-lg-6">
