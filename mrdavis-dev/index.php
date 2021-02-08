@@ -54,7 +54,7 @@
             <?php include('post_index/modal_critica.php'); ?>
 
         </div>
-        <?php include("../template/footer.php") ?>
+        <?php include("footer.php") ?>
     </div>
 
 

@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-  <title>DCON | Home</title>
+  <title>DCONM | Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -177,7 +177,7 @@
             <div class="bg-transparent card-header pt-4 border-0">
               <h1 class="h1 font-weight-normal text-primary text-center mb-0" data-pricing-value="45"><span class="price">Contactanos</span><span class="h6 text-muted ml-2"></span></h1>
             </div>
-            <div class="card-body pt-0">|
+            <div class="card-body pt-0">
               <ul class="list-unstyled mb-4">
                 <p>Si necesita funciones extras para su negocio o crear un diseño personalizado a su gusto no dude en contactarnos le haremos una cotización</p>
               </ul>
