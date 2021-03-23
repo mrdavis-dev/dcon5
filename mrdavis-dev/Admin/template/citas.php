@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("localhost", "root", "", "dcon");
+$connect = mysqli_connect("boebd5slpd7q4dumxrca-mysql.services.clever-cloud.com", "ukh1c0rd6quvod3x", "OtSrOG7u9E0A32aaQcvd", "boebd5slpd7q4dumxrca");
 $output = '';
 if(isset($_POST["query"]))
 {
