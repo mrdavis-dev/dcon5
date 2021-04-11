@@ -1,0 +1,29 @@
+body{
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='376' height='376' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' fill-opacity='0.34' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+#qr-canvas {
+    margin: auto;
+    width: calc(100% - 20px);
+    max-width: 400px;
+  }
+  
+  #btn-scan-qr {
+    cursor: pointer;
+  }
+  
+  #btn-scan-qr img {
+    height: 10em;
+    padding: 15px;
+    margin: 15px;
+    background: white;
+  }
+  
+  #qr-result {
+    font-size: 1.2em;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 700px;
+    background-color: white;
+  }
