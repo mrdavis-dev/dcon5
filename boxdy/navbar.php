@@ -56,10 +56,11 @@
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-    <a href="#">Inicio</a>
-    <a href="#">Sobre nosotros</a>
-    <a href="#">Suscripciones</a>
-    <a href="#">Contacto</a>
+    <a href="index.php">Inicio</a>
+    <a href="about.php">Sobre nosotros</a>
+    <a href="pedido.php">Pedidos</a>
+    <a href="product.php">Productos</a>
+    <a href="contact.php">Contacto</a>
   </div>
 </div>
 
